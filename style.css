@@ -1,3 +1,7 @@
+body{
+  background-color: rgb(183, 209, 183);
+  margin-left: 540px;
+}
 #color-palette{
 }
 #preto{
@@ -16,7 +20,7 @@
   width: 50px;
   height: 50px;
 }
-#verdinho{
+#verde{
   background-color: rgb(88, 187, 154);
   border: black solid 1px;
   display: inline-block;
@@ -39,5 +43,14 @@
   border: black solid 1px;
 }
 .linha{
-  display: flex;}
+  display: flex;
+}
+#clear-board{
+  width: 120px;
+  height: 30px;
+  margin-left: 40px;
+  background-color: rgb(238, 177, 166);
+  border-radius: 5px;
+  border: black solid 1px;
+}
 
